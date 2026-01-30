@@ -1,11 +1,16 @@
 
 import './App.css'
+import HomePage from "@components/HomePage/HomePage.jsx";
+import Info from "@components/Info/Info.jsx";
+
 
 function App() {
 
   return (
     <>
-      <div>Ecommerse</div>
+
+        <HomePage/>
+        <Info />
     </>
   )
 }
